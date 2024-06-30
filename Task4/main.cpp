@@ -12,21 +12,21 @@ int main() {
         if(i == 0){
             printf("|");
             for(int j = 0; j < width; j++){
-                printf("-");
+                printf(" - ");
             }
             printf("|\n");
         }
         if(i < length - 2) {
             printf("|");
             for (int d = 0; d < width; d++) {
-                printf(" ");
+                printf("   ");
             }
             printf("|\n");
         }
         if(i == length - 1){
             printf("|");
             for(int j = 0; j < width; j++){
-                printf("-");
+                printf(" - ");
             }
             printf("|");
         }
